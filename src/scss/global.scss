@@ -1,1 +1,30 @@
-@import '_typography.scss'
+@import '_typography.scss';
+
+// ----> Google Fonts
+
+$font-primary: "Roboto";
+$font-secondary: "Oswald";
+$font-medium: 1rem;
+$font-small: 0.8rem;
+$font-big: 1.2rem;
+
+$font-headers: $font-primary;
+
+// el no pondria más de 3 tamaños para los p, small... los headers van a parte
+
+h1, .h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-family: $font-headers;
+    margin-bottom: 1.5rem;
+    // todo esto deberían ser variables
+}
+
+
+h2, h3, h4, h5, h6 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+    margin-bottom: 1.5rem;
+    // todo esto deberían ser variables
+}
