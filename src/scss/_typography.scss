@@ -1,2 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@500&display=swap');
+
+$font-primary: "Roboto";
+$font-secondary: "Oswald";
+$font-medium: 1rem;
+$font-small: 0.8rem;
+$font-big: 1.2rem;
+
+$font-headers: $font-primary;
+
+// el no pondria más de 3 tamaños para los p, small... los headers van a parte
