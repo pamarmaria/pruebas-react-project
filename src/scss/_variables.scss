@@ -1,0 +1,44 @@
+/*---COLOR VARIABLES---*/
+
+$color-orange:             hsl(17 99% 56%);
+$color-orange-dark:        darken($color-orange, 30%);
+$color-orange-light:       lighten($color-orange, 30%);
+
+$color-green:              hsl(147 54% 44%);
+$color-green-dark:         darken($color-green, 30%);
+$color-green-light:        lighten($color-green, 30%);
+
+$color-black:              hsl(0 0% 0%);
+$color-gray-dark:          lighten($color-black, 40%);
+$color-gray-medium:        lighten($color-black, 70%);
+$color-gray-light:         lighten($color-black, 85%);
+$color-white:              hsl(0 0% 100%);
+
+
+
+/*---FONT VARIABLES---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Imprima&family=Space+Mono&display=swap');
+
+$font-main: 'Imprima';
+$font-display: 'Alice';
+$font-mono: 'Space Mono';
+
+$font-headers: $font-display;
+
+        /*----FONT SIZE----*/
+
+        $font-size-xs:  1.2rem; // 12px
+        $font-size-s:   1.4rem; // 14px
+        $font-size-m:   1.6rem; // 16px
+        $font-size-ml:  2.4rem; // 24px
+        $font-size-l:   3.6rem; // 36px
+        $font-size-xl:  4.8rem; // 48px
+        $font-size-xxl: 6.0rem; // 60px
+
+        /*----FONT WEIGHT----*/
+
+        /*$font-bold:     700;
+        $font-semibold: 600;
+        $font-medium:   500;
+        $font-light:    300; */

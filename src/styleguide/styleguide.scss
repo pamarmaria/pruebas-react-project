@@ -1,36 +1,36 @@
-@import "../scss/variables.scss";
+@import "../scss/_variables.scss";
 
 .section {
     padding: 10px;
-    background-color: lightblue;
+    background-color: $color-orange-light;
     border-radius: 10px;
     border: solid 1px black;
 }
 
 .circle1 {
-    background-color: $blue;
+    background-color: $color-green-light;
     width: 70px;
     height: 70px;
     border-radius: 50px;
-    border: 5px solid $grey;
+    border: 5px solid $color-gray-light;
 }
 
 .circle2 {
-    background-color: $purple;
+    background-color: $color-green;
     width: 70px;
     height: 70px;
     border-radius: 50px;
 }
 
 .circle3 {
-    background-color: $pink;
+    background-color: $color-orange;
     width: 70px;
     height: 70px;
     border-radius: 50px;
 }
 
 .circle4 {
-    background-color: $grey;
+    background-color: $color-gray-medium;
     width: 70px;
     height: 70px;
     border-radius: 50px;

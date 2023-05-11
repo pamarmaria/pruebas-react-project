@@ -1,11 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@500&display=swap');
+@import '_variables.scss';
 
-$font-primary: "Roboto";
-$font-secondary: "Oswald";
-$font-medium: 1rem;
-$font-small: 0.8rem;
-$font-big: 1.2rem;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: var(--color-black);
+    margin: 1rem 0;
+}
 
-$font-headers: $font-primary;
+h1,
+.h1 {
+    font-size: $font-size-xxl;
+    color: var(--color-orange);
+    font-family: $font-headers;
+}
 
-// el no pondria más de 3 tamaños para los p, small... los headers van a parte
+h2,
+.h2 {
+    font-size: $font-size-xl;
+    color: var(--color-green);
+    font-family: $font-headers;
+}
+
+h3,
+.h3 {
+    font-size: $font-size-l;
+    font-family: $font-mono;
+}
+
+h4,
+.h4 {
+    font-size: $font-size-ml;
+}
+
+h5, h6,
+.h5, .h6 {
+    font-size: $font-size-m;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+small {
+    font-size: $font-size-xs;
+    margin: .5rem 0;
+}
