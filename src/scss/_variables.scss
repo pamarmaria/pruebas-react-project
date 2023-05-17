@@ -14,6 +14,20 @@ $color-gray-medium:        lighten($color-black, 70%);
 $color-gray-light:         lighten($color-black, 85%);
 $color-white:              hsl(0 0% 100%);
 
+$color-vars: (
+  "color-orange"       :   $color-orange,
+  "color-orange-dark"  :   $color-orange-dark, 
+  "color-orange-light" :   $color-orange-light,
+  "color-green"        :   $color-green,
+  "color-green-dark"   :   $color-green-dark,
+  "color-green-light"  :   $color-green-light,
+  "color-black"        :   $color-black,
+  "color-gray-dark"    :   $color-gray-dark,
+  "color-gray-medium"  :   $color-gray-medium,
+  "color-gray-light"   :   $color-gray-light,
+  "color-white"        :   $color-white,
+);
+
 
 
 /*---FONT VARIABLES---*/
