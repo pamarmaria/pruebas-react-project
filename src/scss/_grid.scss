@@ -1,0 +1,15 @@
+// Tenemos el grid en un archivo aparte, y no en utilities, porque quizás no lo necesitamos
+// Si está en utilities, se cargaría también
+
+/*[class^="grid__item--"] {
+        height: 50px;
+        background-color: pink;
+}
+Aquí pondríamos las propiedades que todos van a compartir
+Esto mejor ponerlo antes del loop dice Wakkos */
+
+@for $i from 1 through 12 {
+    .grid__item--#{$i} {
+        flex: 0 0 (($i / $grid) * 100%);
+    }
+}
